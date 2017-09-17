@@ -148,7 +148,7 @@ if __name__ == '__main__':
     import cv2
 
     # Read video frames.
-    video = cv2.VideoCapture('video1.mp4')
+    video = cv2.VideoCapture('test.avi')
 
     images = []
     count = 0
