@@ -148,7 +148,7 @@ if __name__ == '__main__':
     import cv2
 
     # Read video frames.
-    video = cv2.VideoCapture('test.avi')
+    video = cv2.VideoCapture('video1.mp4')
 
     images = []
     count = 0
@@ -173,9 +173,9 @@ if __name__ == '__main__':
     #
     # largest_contour = cv2.minAreaRect(max(contours, key=cv2.contourArea))
     #
-    # bleh = np.copy(result)
-    # cv2.drawContours(bleh, contours, -1, (0, 255, 0), 3)
-    # cv2.imwrite("debug.png", bleh)
+    # debug = np.copy(result)
+    # cv2.drawContours(bleh, debug, -1, (0, 255, 0), 3)
+    # cv2.imwrite("debug.png", debug)
     #
     # angle = largest_contour[2]
     # height, width = grayscale.shape[:2]
