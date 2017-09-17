@@ -1,0 +1,69 @@
+﻿Social Insurance Number (SIN)
+
+The Employment Insurance Regulations require a person to provide the SIN number to his or her employer within 3 days.  However, the legislation does not prevent persons from working in insurable employment if they have not yet received their SIN and card.  
+
+A SIN is not required for NIL appointment, scholarship, bursary or research grant.
+
+A Social Insurance Number must be provided for all paid appointments whether the individual is a Canadian resident or not. 
+
+For a foreign worker, a 900 series SIN will be issued if the individual has been issued a Study or Work Permit and has employment. A copy of the SIN confirmation letter is required which will indicate an expiry date.  Staff members responsible for hiring MUST ask the new hire to show his/her SIN confirmation letter and a copy must be sent to the Human Resources Department along with the appointment form. For more information on SIN, please refer to SIN# rules document on the HRIS web site. 
+
+Human Resources Department runs regular reports to track 900 SIN based on the expiry date entered on the legal document screen, and will terminate appointments automatically on expiry of the SIN unless the employee is on an “Implied Status” (Please see the section below on “Implied Status”).
+
+Study Permit
+
+A Study Permit issued to a foreign student of U of M may allow the student to work on the U of M campus. A foreign student MUST be registered as a full-time student to be eligible to work on campus using the Study Permit. The student must also remain a full-time student during the entire period they are working on campus.  A part-time student is not allowed to work on campus unless the individual is issued with other legal document(s). 
+
+Sometimes there may be terms and conditions specified on the Study Permit that restrict the type of employment the student may pursue.  Please check the Study Permit to ensure that the individual is legally permitted to perform the work required by the job.
+
+In certain situations, a student may be allowed to work on campus with a Study Permit for a specified period of time after completing their final exams or after submitting their final projects/thesis.  Since the rules surrounding these situations are complex, please consult the International Centre for Students or the Human Resources Department for advice on individual cases.
+
+A foreign student is not allowed to work outside the validity period shown on the Study Permit unless he/she is on an “Implied Status” (Please see the section below on “Implied Status”). The individual must also possess a SIN before he/she should start work.
+
+Human Resources Department runs regular reports to track Study Permit based on the expiry date and will terminate appointments automatically on expiry of the Study Permit or the SIN.
+
+Work Permit
+
+All foreign employees (paid or nil salary) MUST possess a Work Permit or, in the case of on-campus employment for a U of M student, a Study Permit.  For the rules surrounding students working on the U of M campus with only a Study Permit, please refer to the “Study Permit” section above.
+
+Sometimes there may be terms and conditions specified on the Work Permit. Please check the terms and conditions to make sure that the individual is allowed to perform the type of work required by the job.
+
+All Work Permits have an expiry date and appointment should not go beyond the expiry date unless the person is on an “Implied Status” (Please see definition detailed in this document).
+
+Human Resources Department runs regular reports to track Work Permit based on the expiry date and will terminate appointments automatically on expiry of the Work Permit or the SIN.
+
+Implied Status
+
+A foreign worker is considered to be on “Implied Status” when he/she has applied for renewal of his/her study permit or work permit prior to the expiry of the permit. A receipt showing payment is required as proof that the application for a permit renewal has been received by Citizenship and Immigration Canada (CIC) prior to the expiry date of the work/study permit. A foreign worker is permitted to continue to work on “Implied Status” under the same terms and conditions of the expired permit and a copy of the receipt should be submitted to the Human Resources Department to avoid interruption of pay. As soon as the new permit is available, a copy must be submitted to Human Resources Department for records.
+
+Human Resources Department runs regular reports to track Implied Status and if a new Study or Work Permit is not received 12 weeks from the expiry date of the Study or Work Permit, the appointment will be terminated automatically.
+
+As soon as the renewed Study or Work Permit is issued, the employee must apply to renew the SIN card right away and send a copy of the SIN confirmation letter. 
+
+Permanent Resident Card:
+
+This card is issued to an individual giving him/her permission to enter Canada to become a permanent resident. The expiry date on the card means the individual MUST enter Canada by that date and if not, the individual will have lost the opportunity to enter Canada to become a permanent resident. Therefore, you need to check the date of entry into Canada on the back of the card to determine if the person has landed before the expiry date. If the date of entry is between the effective and the expiry date shown on the card, then the individual has permanent residence in Canada. Based on this permanent residence, HR enters this legal document onto VIP and the expiry date on the VIP screen should be blank. 
+
+The individual must then apply for a new SIN and a copy of the new confirmation letter must be forwarded to the Human Resources Department.
+
+Child Employment Permit
+
+An employee under the age of 16 must have an Employment Permit issued by Employment Standards of Manitoba. For more information, please visit web site (Control + click to access the site):
+
+http://www.gov.mb.ca/labour/standards/doc,young-workers,factsheet.html
+
+In VIP, the appointment end date is used as the expiry date of the legal document. When the child is re-appointed, a new Child Employment Permit issued by Employment Standard is required.
+
+Status Ind Tax Exempt
+
+(Note: For consistency and to avoid misunderstanding, the terminology used in this section conforms to that used by Canada Revenue Agency)
+
+Tax exempt is granted to Status Indian who works on Reserve. Please refer to the following government web site for details and guidelines (Control + click to access the site):
+
+http://www.cra-arc.gc.ca/aboriginals/guidelines-e.html
+
+The official form used is “Determination of Exemption of a Status Indian’s Employment Income” obtainable from the following web site (control + click to access the site).
+
+http://www.cra-arc.gc.ca/E/pbg/tf/td1-in/td-1-in-06e.pdf
+
+For data entry in VIP, the effective date of the legal document on the Legal Document screen is the start date of the appointment supported by the “Determination of Exemption of a Status Indian’s Employment Income” form signed by the individual and the expiry date is the end date of the appointment. If the individual is re-appointed, a new Determination of Exemption of a Status Indian’s Employment Income form is required.
