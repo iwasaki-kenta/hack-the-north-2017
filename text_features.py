@@ -23,7 +23,7 @@ dataset = {
 for category in categories:
     category_sentences = []
     for index in range(5):
-        with open(category + 'Samples' + str(index) + '.txt') as file:
+        with open('datasets/' + category + 'Samples' + str(index) + '.txt') as file:
             text = file.read()
 
             sentences = [re.sub('[^0-9a-zA-Z]+', ' ', sentence).strip() for sentence in tokenizer.tokenize(text)]
@@ -43,7 +43,7 @@ for key in categories:
 data = np.asarray(data, np.float32)
 target = np.asarray(target, np.float32)
 
-np.savez('dataset.htn', data=data, target=target)
+np.savez('datasets/dataset.htn', data=data, target=target)
 
 # print("Data Shape:", data.shape)
 # print("Target Shape:", target.shape)

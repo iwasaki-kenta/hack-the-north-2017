@@ -111,6 +111,37 @@ def stitch_images(imgs, templates_loc):
 
     return result
 
+def firebase_upload(api_key, text):
+    import pyrebase
+
+    firebase = pyrebase.initialize_app({
+        "apiKey": api_key,
+        "authDomain": "test-764cc.firebaseapp.com",
+        "databaseURL": "https://test-764cc.firebaseio.com",
+        "storageBucket": "test-764cc.appspot.com",
+        "serviceAccount": "firebase_key.json"
+    })
+
+    auth = firebase.auth()
+    db = firebase.database()
+    storage = firebase.storage()
+
+    image_key = db.generate_key()
+
+    user = auth.sign_in_with_email_and_password("dranithix@gmail.com", "hahaha")
+    storage.child("images/" + image_key + ".png").put("ocr.png")
+
+    image_url = storage.child("images/" + image_key + ".png").get_url(None)
+
+    data = {
+        "user": user['idToken'],
+        "note": text,
+        "image": image_url,
+        "category": -1
+    }
+
+    db.child("notes").push(data)
+
 
 if __name__ == '__main__':
     import cv2
@@ -176,4 +207,6 @@ if __name__ == '__main__':
         }
 
     r = requests.post('https://vision.googleapis.com/v1/images:annotate?key=' + config.google_key(), json=payload)
-    print(r.json()['responses'][0]['textAnnotations'][0]['description'])
+    text = r.json()['responses'][0]['textAnnotations'][0]['description']
+
+    firebase_upload(config.google_key())
