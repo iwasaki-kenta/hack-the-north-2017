@@ -209,4 +209,4 @@ if __name__ == '__main__':
     r = requests.post('https://vision.googleapis.com/v1/images:annotate?key=' + config.google_key(), json=payload)
     text = r.json()['responses'][0]['textAnnotations'][0]['description']
 
-    firebase_upload(config.google_key())
+    firebase_upload(config.google_key(), text)
