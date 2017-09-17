@@ -6,7 +6,7 @@ Kenta Iwasaki & Vikram Sambamurthy
 
 import numpy as np
 
-h_ratio = 0.8
+h_ratio = 0.7
 
 
 def detect_edges(image, t1=50, t2=100):
@@ -23,7 +23,7 @@ def crop_candidate_template(image):
 
 def extend_image(image, top, bottom, left, right):
     h, w = image.shape[:2]
-    result = np.zeros((h + top + bottom, w + left + right, 3), np.uint8)
+    result = np.full((h + top + bottom, w + left + right, 3), 255, np.uint8)
     result[top:top + h, left:left + w] = image
     return result
 
@@ -111,7 +111,8 @@ def stitch_images(imgs, templates_loc):
 
     return result
 
-def firebase_upload(api_key, text):
+
+def firebase_upload(api_key, text, classify=True):
     import pyrebase
 
     firebase = pyrebase.initialize_app({
@@ -147,40 +148,48 @@ if __name__ == '__main__':
     import cv2
 
     # Read video frames.
-    video = cv2.VideoCapture('video1.mp4')
+    video = cv2.VideoCapture('test.avi')
 
     images = []
+    count = 0
 
     while True:
         success, image = video.read()
 
         if success:
-            images.append(image)
+            if count % 5 == 0:
+                cv2.imwrite("frames/frame" + str(count) + ".png", image)
+                images.append(image)
+            count += 1
         else:
             break
 
     # Perform stitching.
     result = stitch_images(images, get_candidate_image_positions(images))
 
-    grayscale = cv2.cvtColor(result, cv2.COLOR_BGR2GRAY)
-    _, grayscale = cv2.threshold(grayscale, 127, 255, 0)
-    _, contours, hierarchy = cv2.findContours(grayscale, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-
-    largest_contour = cv2.minAreaRect(max(contours, key=cv2.contourArea))
-
-    angle = largest_contour[2]
-    height, width = grayscale.shape[:2]
-
-    # Normalize rotation.
-    rotation_matrix = cv2.getRotationMatrix2D((width / 2, height / 2), angle, 1)
-    result = cv2.warpAffine(result, rotation_matrix, (width, height))
-
-    copy = cv2.boxPoints((largest_contour[0], largest_contour[1], 0.0))
-    region_vertices = np.int0(cv2.transform(np.array([copy]), rotation_matrix))[0]
-    region_vertices[region_vertices < 0] = 0
-
-    # Normalize translation.
-    result = result[region_vertices[1][1]:region_vertices[0][1], region_vertices[1][0]:region_vertices[2][0]]
+    # grayscale = cv2.cvtColor(result, cv2.COLOR_BGR2GRAY)
+    # _, grayscale = cv2.threshold(grayscale, 127, 255, 0)
+    # _, contours, hierarchy = cv2.findContours(grayscale, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    #
+    # largest_contour = cv2.minAreaRect(max(contours, key=cv2.contourArea))
+    #
+    # bleh = np.copy(result)
+    # cv2.drawContours(bleh, contours, -1, (0, 255, 0), 3)
+    # cv2.imwrite("debug.png", bleh)
+    #
+    # angle = largest_contour[2]
+    # height, width = grayscale.shape[:2]
+    #
+    # # Normalize rotation.
+    # rotation_matrix = cv2.getRotationMatrix2D((width / 2, height / 2), angle, 1)
+    # result = cv2.warpAffine(result, rotation_matrix, (width, height))
+    #
+    # copy = cv2.boxPoints((largest_contour[0], largest_contour[1], 0.0))
+    # region_vertices = np.int0(cv2.transform(np.array([copy]), rotation_matrix))[0]
+    # region_vertices[region_vertices < 0] = 0
+    #
+    # # Normalize translation.
+    # result = result[region_vertices[1][1]:region_vertices[0][1], region_vertices[1][0]:region_vertices[2][0]]
 
     cv2.imwrite("ocr.png", result)
 
@@ -208,5 +217,7 @@ if __name__ == '__main__':
 
     r = requests.post('https://vision.googleapis.com/v1/images:annotate?key=' + config.google_key(), json=payload)
     text = r.json()['responses'][0]['textAnnotations'][0]['description']
+
+    print("OCR Result:", text)
 
     firebase_upload(config.google_key(), text)
