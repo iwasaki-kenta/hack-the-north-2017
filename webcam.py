@@ -46,7 +46,9 @@ def finish_recording(images):
     sentence = re.sub('[^0-9a-zA-Z]+', ' ', text).strip()
     features = indicoio.text_features(sentence)
 
-    category = classifier.predict([features])[0]
+    category = int(classifier.predict([features])[0])
+
+    print("Category:", category)
 
     firebase_upload(config.google_key(), text, category)
 
