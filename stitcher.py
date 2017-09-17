@@ -113,7 +113,7 @@ def stitch_images(imgs, templates_loc):
     return result
 
 
-def firebase_upload(api_key, text, classify=True):
+def firebase_upload(api_key, text, category):
     import pyrebase
 
     firebase = pyrebase.initialize_app({
@@ -139,7 +139,7 @@ def firebase_upload(api_key, text, classify=True):
         "user": user['idToken'],
         "note": text,
         "image": image_url,
-        "category": -1
+        "category": category
     }
 
     db.child("notes").push(data)

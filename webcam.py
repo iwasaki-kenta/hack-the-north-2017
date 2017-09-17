@@ -1,10 +1,18 @@
 import base64
+import re
 
 import cv2
 import requests
 
 import config
 from stitcher import stitch_images, get_candidate_image_positions, firebase_upload
+
+from sklearn.externals import joblib
+import indicoio
+
+classifier = joblib.load('classifier.pkl')
+indicoio.config.api_key = config.indico_key()
+
 
 
 def finish_recording(images):
@@ -35,7 +43,12 @@ def finish_recording(images):
 
     print("OCR Result:", text)
 
-    firebase_upload(config.google_key(), text)
+    sentence = re.sub('[^0-9a-zA-Z]+', ' ', text).strip()
+    features = indicoio.text_features(sentence)
+
+    category = classifier.predict([features])[0]
+
+    firebase_upload(config.google_key(), text, category)
 
 
 if __name__ == "__main__":
