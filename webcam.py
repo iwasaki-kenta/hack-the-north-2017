@@ -1,38 +1,80 @@
+import base64
+
 import cv2
+import requests
 
-cam = cv2.VideoCapture(0)
+import config
+from stitcher import stitch_images, get_candidate_image_positions, firebase_upload
 
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
-video = cv2.VideoWriter('test.avi', fourcc, 20.0, (640, 116))
 
-recording = False
+def finish_recording(images):
+    result = stitch_images(images, get_candidate_image_positions(images))
+    cv2.imwrite("ocr.png", result)
 
-while True:
-    success, image = cam.read()
-    height, width = image.shape[:2]
+    # Perform OCR.
 
-    rotation_matrix = cv2.getRotationMatrix2D((width / 2, height / 2), 90, 1)
-    image = cv2.warpAffine(image, rotation_matrix, (width, height))
+    with open("ocr.png", "rb") as image_file:
+        encoded_image = base64.b64encode(image_file.read()).decode()
+        payload = {
+            "requests": [
+                {
+                    "image": {
+                        "content": encoded_image
+                    },
+                    "features": [
+                        {
+                            "type": "TEXT_DETECTION"
+                        }
+                    ]
+                }
+            ]
+        }
 
-    image = image[int(height / 2) - 58: int(height / 2) + 58, :]
+    r = requests.post('https://vision.googleapis.com/v1/images:annotate?key=' + config.google_key(), json=payload)
+    text = r.json()['responses'][0]['textAnnotations'][0]['description']
 
-    cv2.imshow('Webcam', image)
+    print("OCR Result:", text)
 
-    key = cv2.waitKey(1)
-    if key == 27:  # ESC
-        break
-    else:
-        key = key & 0xFF
-        if key == 32: # Space
-            recording = not recording
-            print("NOW", recording)
-            pass
+    firebase_upload(config.google_key(), text)
 
-    # Handle recording video.
 
-    if recording:
-        video.write(image)
+if __name__ == "__main__":
+    cam = cv2.VideoCapture(0)
+    recording = False
+    count = 0
+    images = []
 
-cam.release()
-video.release()
-cv2.destroyAllWindows()
+    while True:
+        success, image = cam.read()
+
+        if success:
+            height, width = image.shape[:2]
+
+            rotation_matrix = cv2.getRotationMatrix2D((width / 2, height / 2), 90, 1)
+            image = cv2.warpAffine(image, rotation_matrix, (width, height))
+
+            image = image[int(height / 2) - 58: int(height / 2) + 58, :]
+
+            cv2.imshow('Webcam', image)
+
+            key = cv2.waitKey(1)
+            if key == 27:  # ESC
+                break
+            else:
+                key = key & 0xFF
+                if key == 32:  # Space
+                    recording = not recording
+                    if recording:
+                        images = []
+                    else:
+                        finish_recording(images)
+                    print("NOW", recording)
+                    pass
+
+            # Handle recording video.
+
+            if recording:
+                images.append(image)
+
+    cam.release()
+    cv2.destroyAllWindows()

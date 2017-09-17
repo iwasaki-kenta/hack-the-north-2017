@@ -5,8 +5,9 @@ Kenta Iwasaki & Vikram Sambamurthy
 """
 
 import numpy as np
+import cv2
 
-h_ratio = 0.7
+h_ratio = 0.8
 
 
 def detect_edges(image, t1=50, t2=100):
@@ -145,10 +146,8 @@ def firebase_upload(api_key, text, classify=True):
 
 
 if __name__ == '__main__':
-    import cv2
-
     # Read video frames.
-    video = cv2.VideoCapture('test.avi')
+    video = cv2.VideoCapture('video1.mp4')
 
     images = []
     count = 0
