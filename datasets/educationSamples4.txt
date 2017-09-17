@@ -1,0 +1,573 @@
+﻿Prior economic research provides mixed evidence on the impact of cigarette prices on
+youth smoking. This paper empirically tests the effects of various price measures on youth
+demand for cigarettes using data collected in a recent nationally representative survey of 17,287
+high school students. In addition to commonly used cigarette price measures, the study also
+examined the effect of price as perceived by the students. This unique information permits the
+study of the effect of teen-specific price on cigarette demand. The analysis employed a two-part
+model of cigarette demand based on a model developed by Cragg (1971) in which the propensity
+to smoke and the intensity of the smoking habit are modeled separately. The results confirm that
+higher cigarette prices, irrespective of the way they are measured, reduce youth cigarette
+smoking. The split of the price effect on smoking probability and on smoking intensity depends
+on the price measure used in the model. The largest impact on cigarette demand has the teenspecific,
+perceived price of cigarettes.
+Key words: youth smoking, price effects
+
+Smoking is associated with several market failures such as negative externalities and
+imperfect information of the market participants. The health consequences of smoking result in
+huge health care expenses partly paid from public funds. In addition, the cost of medical
+treatment for smokers inflates health insurance premiums for everyone regardless of smoking
+participation. Lower labor market productivity is another result of engagement in tobacco
+consumption. These market failures can justify government interventions in the market for
+tobacco products.
+Youth is of particular interest for public policy makers and economists because it is the
+most effective group to target for smoking prevention programs [1] and because there are some
+additional externalities associated with youth smoking. Almost all first use of cigarettes occurs
+during the high school years. At that age, consumers are either not well informed or they do not
+consciously process information on the health hazards of smoking. At the time, the young people
+are making a decision about smoking, they may not be fully aware of the health consequences of
+smoking. Youth typically underestimates the risk of addiction to cigarettes and mistakenly
+assumes that they can quit easily in a few years.
+The annual prevalence of cigarette smoking in the United States stabilized in 1990’s with
+approximately 62 million smokers in 1996, which represented 23.2 percent of the U.S. population
+[2]. Even though this figure is not high relative to smoking in other countries (the world average
+smoking prevalence in 1997 was 29 percent [3]), the declining trend in cigarette consumption
+from the 1980’s ended. It is particularly troubling that the slight decrease in smoking prevalence
+among adults in the 1990’s was accompanied by an increase in smoking participation among
+youth and young adults. The evidence of this trend was detected in several nationally
+representative surveys. For example, the 1998 Youth Risk Behavior Survey reported an increase
+in average smoking prevalence among high school students from 27.5 in 1991 to 36.4 percent in
+1997. According to the Centers for Disease Control and Prevention [4], the number of 12th grade
+high school students who started smoking as a daily habit jumped from 708,000 in 1988 to
+1,200,000 in 1996, an increase of 73 percent.
+There is an economic explanation for this rising trend. Even though the Federal cigarette
+excise tax was raised twice in the beginning of the1990’s (by 4 cents in 1991 and by another 4
+cents in 1992, resulting in 24 cents tax per a pack), the real prices in the subsequent period fell.
+Between 1993 and 1996, the real price of a pack of cigarettes adjusted for inflation fell by 10
+percent [5]. The observed price decline was partly a result of the Philip Morris Company’s
+decision to reduce the price of Marlboro cigarettes, which was followed by competitive price
+adjustments by other major cigarette manufacturers. The lower price of Marlboro cigarettes
+provided an additional economic motivation for youth to increase the demand for cigarettes
+because Marlboro is the most preferred brand among teenagers. In 1993, Marlboro was the brand
+of choice for 60 percent of teenagers, but the overall market share for this brand was only 23.5
+percent [6]. The stable smoking rates of adults in the 1990’s and increasing smoking prevalence
+among youth in the same period would support the hypothesis of higher cigarette price
+responsiveness of younger age groups.
+To discourage the use of tobacco products among the younger generation in the 1990’s,
+public officials designed and adopted numerous anti-smoking policies. Cigarette market
+interventions now cover a wide range of areas. The most significant among them are tobacco
+excise taxes, smoke-free indoor air laws, laws restricting access of minors to tobacco (including
+retail tobacco licensing), advertising and promotion restrictions on tobacco products,
+requirements for warning labels on tobacco products, and requirements for product ingredient
+disclosure.
+4
+Not all states were similarly aggressive as far as the taxing of tobacco is concerned. Over
+time, the differences between state levels of taxation began to widen. The largest gap developed
+between tobacco producing and non-producing states. As of December 31, 1999, state excise
+taxes ranged from 2.5 cents a pack in the state of Virginia to $ 1 a pack in Hawaii and Alaska [7].
+The tax differences on state and municipal levels create incentives for smokers to “shop around”
+and look for lower cigarette prices in other localities. If the purchase of cigarettes occurs in a low
+tax state and the consumption or sale of the product in a high tax state then the transaction is
+defined as smuggling.
+At the beginning of the 1990's, the federal government took the initiative in the area of
+enforcement and inspection. For example, in July 1992, Congress passed the Synar Amendment
+requiring states to enact and enforce laws that prohibit tobacco sales to consumers under the age
+of 18. Under the regulations of this Amendment, states have to actively inspect and enforce the
+laws. They must demonstrate (by conducting annual, random, and unannounced compliance
+checks of retailers selling tobacco products) that the age limits access laws are being enforced.
+Otherwise, they are subject to reductions in their Substance Abuse Block Grant funds.
+The United States, with their different prices and public policy measures across states,
+provide excellent opportunities for health economists to study the effects of prices and other antismoking
+measures on the demand for cigarettes. The main purpose of this study is to evaluate
+price effects on smoking among young people.
+5
+2. PREVIOUS RESEARCH
+One of the first micro level studies on the economics of youth smoking appeared in the
+1980’s. Lewit, Coate, and Grossman (1981) [8] studied the smoking behavior of young
+respondents (12 – 17 years old) in years 1966-70. Their demand equation tested retail prices of
+cigarettes while controlling for various socioeconomic factors such as age, sex, race, family size,
+income, labor force status of mother, and for smuggling. The two-part-model estimated an overall
+price elasticity of –1.44, a figure higher than the same estimates from the previous macro data
+studies. The authors hypothesized that young consumers might be more price responsive than
+adults because of lower disposable income. They also found that price has more effect on the
+decision to smoke at all than on the number of cigarettes smoked by a smoker. Anti-smoking
+advertising had a negative effect on smoking participation but it did not change the number of
+cigarettes consumed by smokers.
+In 1982, Lewit and Coate [9] used data with respondents 20 to 74 years old. They
+concluded that smuggling can bias results and that the smuggling incentives should be controlled
+for. Dividing the sample into three age groups (20 – 25, 26 – 35, 36 – 74) and estimating
+separately the respective price responsiveness confirmed the hypothesis about the higher price
+elasticity among youth, perhaps also due to shorter smoking history (the addiction to nicotine did
+not have a chance to fully develop), higher discount rate for future consumption, and the
+multiplying effect of peer pressure which is stronger for young adults than for older consumers.
+As in the 1981 study, price had a larger effect on a person’s decision to smoke than on the
+number of cigarettes consumed by a smoker.
+Wasserman, et al. (1991) [10] also analyzed respondents from 20 to 74 years old. Their
+demand equation controlled for state level antismoking regulations and found insignificant effects
+of prices on the amount smoked by young smokers. The authors attributed this result to a positive
+6
+correlation between cigarette prices and state smoking policies and argued that the results of
+previous studies are biased upwards since they ignored this correlation (an omitted variable bias).
+They also estimated price elasticities by years and found that they differ. For example the results
+for 1970, 1974, and 1985 were 0.06, -0.017, and –0.23 respectively, which led them to
+hypothesize that the elasticities were increasing over time, perhaps because of growing awareness
+of cigarette harm. However, the results of Wasserman, et. al (1991) were supported by a
+relatively small sample with only 1,891 respondents.
+Chaloupka in his 1988 [11], 1990 [12] and 1991 [13] publications studied the addictive
+nature of smoking. He applied his rational addiction model on longitudinal data from the Second
+National Health and Nutrition Examination Survey (1976 – 1980). While controlling for age,
+race, gender, education, income, physical activity and cigarette prices he found adjacent
+complementarities in cigarette consumption, supporting the hypothesis of rational addiction.
+Chaloupka agreed with Wasserman, et al. (1991) regarding price sensitivity of young adults
+because he also found them less responsive compared with older age groups. This result cast
+serious doubt on the hypothesis of higher price sensitivity of younger respondents as it was
+supported by a much larger respondents' sample.
+Because of the Wasserman, et al. (1991) and Chaloupka (1991) results, the issue of price
+responsiveness of young individuals was subjected to further investigation. In 1994, Douglas and
+Hariharan [14] addressed the issue of smoke initiation, which is primary related to youth smoking
+participation. They analyzed retrospective data from the 1978 and 1979 Smoking Supplements to
+the National Health Interview Survey by applying a hazard model called the split population
+duration model. They did not control for smuggling opportunities (which might bias the price
+effect towards zero), and did not include public policies in their models. The results of this
+7
+analysis confirmed the effect of various socio-demographic variables on smoking initiation but
+the authors did not find prices to be a significant determinant of youth smoking.
+Chaloupka and Grossman (1996) [15] used the Monitoring the Future data on 110,717
+high school students from 1992 to 1994 to study price elasticities, the effects of smoking
+restrictions in both public and private places, and the effects of rules limiting youth access to
+tobacco products. They estimated two part models with excise taxes as a price measure. The
+range of the estimated cigarette price elasticities for various models [(–0.846) - (–1.450)]
+supported the hypothesis about higher responsiveness of youth to cigarette price changes.
+In 1997 Chaloupka and Wechsler (1997) [16] estimated price and policy effects on the
+smoking behavior of 16,500 college students. The study supported the hypothesis that young
+adults exhibit relatively high price sensitivity to cigarette prices: the overall price elasticity
+ranged from –0.906 to –1.309. Only relatively stringent limits on smoking in public places had
+negative and significant effects on smoking participation, and some restrictions could reduce the
+quantity of cigarettes smoked by smokers.
+Evans and Farrelly (1998) [17] estimated overall price elasticities for two different age
+groups (18-24 and 25-39) and found the younger one to be more responsive to a change in
+cigarette prices (price elasticities were –0.63 and –0.42 for the two groups, respectively). Having
+information on cigarette brand choices in their data set, they investigated if a tax change can
+change smokers’ preferred brands. They found that an increase of taxes could induce
+compensating behavior towards longer cigarettes or towards cigarettes with higher nicotine and
+tar content. The younger age group (18-24) had particularly strong substitution reaction so that a
+tax increase can actually result in higher tar/nicotine intake for those smokers who continue to
+smoke despite the tax increase.
+8
+Chaloupka and Pacula (March 1998) [18] examined the effects of limits on youth access
+on smoking rates among 1994 respondents (8th, 10th, and 12th grade) of the Monitoring the Future
+Project. Because previous mixed results on the effects of tobacco control policies were attributed
+to lack of enforcement, they added to the data variables regarding state monitoring activities,
+enforcement of regulations limiting youth access to tobacco, and compliance with them.
+Controlling for smuggling, the authors estimated the total price elasticity of cigarette demand at –
+1.141, with the price elasticity of participation –0.618 and the conditional price elasticity –0.523.
+Most state and local non-tax tobacco control policies did not have statistically significant effects
+on youth smoking with the exception of relatively strong restrictions. However, when the policy
+variables were tested for joint significance, their combined effect on smoking participation was
+significant.
+The single most consistent conclusion from the economic literature on the demand for
+cigarettes is that consumers react to price changes according to general economic principles – an
+increase in price leads to a decrease in consumption. Prices not only control the quantity of
+cigarettes consumed, but they also affect smoking prevalence among the young population. While
+the estimates of those responses vary from study to study, the current consensus for the overall
+price elasticity of youth cigarette demand centers in the range from –0.9 to –1.5.
+9
+3. DATA AND METHODS
+The data on cigarette smoking among high school students were collected for the project
+“The Study of Smoking and Tobacco Use Among Young People” which is funded by the Robert
+Wood Johnson Foundation. Audits & Surveys Worldwide (ASW) conducted the survey between
+March and June of 1996. All questionnaires were self-administered and participants were assured
+of the anonymity and confidentiality of their responses. 17,287 questionnaires were completed
+and processed.
+The participating high schools include all types of schools in the U.S. – public, private,
+and parochial. The original sample of 200 institutions was drawn in four parts. The first part
+represented a core sample of 100 U.S. high schools. The second part was a supplementary sample
+of 40 schools from areas heavily populated by the African-American population. The third part,
+also a supplementary sample, consisted of 40 schools from areas heavily populated by the
+Hispanic population. The last part was drawn from a supplementary sample of 20 schools from
+high poverty areas.
+The core national sample of high schools was selected in three stages. In the first stage, a
+sample of counties was randomly selected, with probability proportional to population. In the
+second stage, a sample of schools was drawn from the selected counties, with probability
+proportional to the number of students enrolled in grades 9 through 12. In the last stage, a sample
+of classes was drawn from each school. Only one class per grade was chosen to participate in the
+survey. All students enrolled in these classes constituted the selected sample of respondents.
+Twenty-seven percent of the originally selected 200 high schools refused to cooperate or
+did not respond to the ASW request to conduct the survey. Similar ones based on the original
+school’s demographic profile replaced these schools. At the end, the total number of participating
+institutions exceeded the originally intended 200 high schools by 2 due to late agreement from
+10
+schools for which a substitute had already been recruited. Because this sample of high schools
+oversampled schools in African-American, Hispanic, and high poverty communities, different
+weights were employed to account for this fact.
+Four measures of youth cigarette smoking are constructed from the survey data. The first
+is a dichotomous indicator of smoking participation assuming a value of 1 if a person smoked at
+least one day in the last 30 days before the survey, 0 otherwise. This variable defined a smoker
+for the purpose of this study. There are 27.8 percent of smokers among the 16,514 students who
+answered the question about smoking participation. When compared with smoking participation
+estimated in other nationally representative surveys in the USA from the same period there are
+fewer smokers in this survey. For example, the Monitoring the Future project [19] estimated
+smoking prevalence among 10th grade high school students 30.4 percent; in the studied sample
+only 27.4 percent of 10th grade students smoke. The Youth Risk Behavior Survey [4] estimated
+36.4 percent smoking prevalence among all high school students in 1997; the studied sample
+reveals 27.8 percent smoking prevalence for high school students in 1996. When the appropriate
+weights are used to adjust for oversampling of certain ethnic and income groups in the studied
+sample, the estimated population’s smoking prevalence is 31.4 percent, a figure comparable to
+other nationally representative surveys.
+The next three measures of smoking are continuous variables and describe smoking
+intensity of those qualified as smokers. The intensity variables are: the average number of days
+during the last 30 days before the survey when the respondent smoked at least one cigarette, the
+average number of cigarettes smoked in a day when the respondent smoked, and the average
+number of cigarettes consumed during the last 30 days before the survey. The descriptive
+statistics of these variables for 4,358 smokers (95 percent response rate) in Table 1 inform about
+smoking behavior of high school smokers.
+11
+About 30 percent of current smokers in the sample smoked daily, but a half of the
+smokers smoke 15 days or less during a month. They smoked on average nearly 6 cigarettes in a
+“smoking day”, but a half of them smoked 3 or less cigarettes in a day when they smoked. About
+one quarter of the sample smoked only 1 cigarette a day. The low median monthly consumption
+(45 cigarettes or less per month for a half the smokers) indicates that the majority of the smokers
+in the sample report being infrequent smokers.
+One of the unique features of this survey is that it obtained information on students’
+perceptions (both smokers and non-smokers) of the price of a cigarette pack. Three measures of
+local teen-specific price were constructed from this information: Individually Perceived Price,
+Average Perceived Price in a high school, and the Smokers' Average Perceived Price in a high
+school. In addition to the perceived prices, three other price measures were matched to the survey
+based on the location of the respondent’s high school. The first is State Average Price (in cents)
+for a pack of cigarettes, obtained from the Tobacco Institute (TI) [5]. It is a weighted average of
+single pack, carton, and vending machine cigarette prices in a state, including state excise taxes.
+Prices of both branded and generic cigarettes are used to compute the average. The second
+merged price is State Excise Tax (in cents) levied on a pack of cigarettes (also obtained from the
+Tobacco Institute). The source of the third price measure was the ACCRA Cost of Living Index, a
+quarterly publication of the American Chamber of Commerce Researchers Association (ACCRA)
+[20]. It represents an average price (in $) of a carton of Winston cigarettes in selected
+metropolitan statistical areas (MSA) in the first and second quarters of 1996, respectively. Table 2
+presents the descriptive statistic for all price measures used in the analysis.
+Each of the price measures has some advantages and disadvantage over the others. Their
+analysis is helpful for correctly interpreting the regression estimates in the following chapter.
+12
+One of the primary advantages of the Individually Perceived Price is that it is teenspecific.
+Young smokers generally differ from adult smokers in brand choices, packaging, points
+of sales, and sources of cigarettes. Given the relatively low reported monthly cigarette
+consumption, preferred packaging and usual purchasing places of the survey sample, it can be
+expected that teens are buying their cigarettes in places with higher average sales prices than an
+average point-of-sale (used for example for computing State Average Price by the Tobacco
+Institute). Comparing means for all measures of perceived prices with the mean of State Average
+Price confirms this behavior. The second advantage of the perceived prices is that they are localspecific
+reflecting the existence of local cigarette taxes and price promotions that are not captured
+by State Average Prices.
+The main disadvantage of the perceived prices is their potential endogeneity [21]. Those
+who smoke have incentives to search for lower cigarette prices and their perceived price can be
+downward biased. On the other hand, smokers may have better information than non-smokers as
+far as true cigarette prices in the area. The problem of endogeneity was alleviated in two steps.
+First, Average Perceived Price and Smokers' Average Perceived Price were averaged across
+students in a high school. Second, different price measures were employed for estimates of price
+effects in two parts of the cigarette demand: the smoking participation was estimated using
+Smokers' Average Perceived Price (because smokers know better local cigarette prices); the
+smoking intensity equation employed Average Perceived Price (computed for both smokers and
+non-smokers) balancing the smokers' incentives to search for cheaper cigarettes. Creating the
+high school averages of perceived prices also solved the problem of missing information on
+Individual Perceived Price for 1358 respondents. Assigning Average Perceived Price measures to
+these students improves the precision of estimates and can even reduce bias of the results if the
+missing observations are systematic with respect to Individual Perceived Price.
+13
+The advantage of State Average Price is that it came from a very reliable informational
+source and it does not suffer from endogeneity, as do perceived prices. It is the most
+comprehensive measure of price in this study because it takes into account various brands and
+various types of sale. However, it represents an average price for an average smoker, including
+adults, and this price may not accurately reflect prices that youth faces. In addition, disadvantage
+of State Average Price is that it is not local-specific and it does not include local cigarette taxes.
+The advantage of State Excise Tax as a price measure is that all cigarette buyers are
+subject to it. Moreover, it is the cigarette tax that is a public policy tool for a cigarette price
+manipulation. The disadvantage is that the state tax is not local-specific; it represents a different
+portion of the total cigarette price (depending on local prices, the brand of choice and the type of
+sale) and it is only a small fraction of the total cigarette price. The recent strategy of tobacco
+companies to run price promotions in states with high excise taxes even weakens the effect of
+taxes on cigarette consumption.
+The main advantage of ACCRA prices is that they are local-specific. This advantage is
+substantially reduced by the fact that only 28 percent of high school locations are covered by the
+ACCRA price information. For the rest of the locations a price from the closest possible ACCRA
+location was assigned with information of the quality of the match. However, the primary
+disadvantage of the ACCRA price is its choice of cigarette brand (Winston) and of packaging (a
+carton); none of those are popular among high school students - Winston is a brand of choice for
+only 0.9 percent smokers in the analyzed sample, and cigarettes by cartons are bought by only 4.6
+percent of them.
+There are nine additional price related variables matched to the survey. Two of them
+control for smuggling between states. If the possibility of smuggling is not accounted for, it can
+lead to an underestimating of the price elasticity of the cigarette demand equation. The first
+14
+“smuggling” variable is continuous and it is defined as the difference between State Average
+Price in each youth’s state of residence and State Average Price in the lowest-price state within
+25 miles of the youth’s county of residence. If the respondent lives in a county that is more than
+25 miles from the state border, or the state across the border has higher cigarette prices, the value
+of this variable is zero. The second “smuggling” variable is defined similarly as the first one but it
+represents a difference in State Excise Taxes between states for those respondents who live in a
+county within 25 miles from the neighboring state. The difference between average state prices
+controls for smuggling in models using State Average Price, the difference between state taxes is
+used in models using the other price measures.
+The seven remaining price data quality indicators capture the quality of match between
+the ACCRA price locations and the survey locations. There are three quality-of-match
+dichotomous variables for each of the two quarters – a perfect match, a match within MSA or
+county, and a match outside MSA or county but within 100 miles. The seventh variable assumes a
+value of one if the ACCRA location changes between first and second quarter of 1996, zero
+otherwise.
+Numerous measures describing tobacco control policies were matched to the survey data
+based on each respondent’s location code. These policies can be important determinants of youth
+smoking. They can also capture state and local sentiment towards smoking and towards youth
+access to tobacco products, which makes them potentially endogenous. However, their exclusion,
+on the other hand, may lead to an omitted variable bias in the estimates of price coefficients. If
+the omitted policies are positively correlated with a price measure, the price effect on smoking
+will be overestimated. To improve the quality and precision of the price estimates, all models
+control for the existence of public policies on both state and local levels.
+15
+There are two groups of public policies controlled for in the models. The group of Clean
+Indoor Air (CIA) laws includes smoking restrictions in private workplaces, smoking restrictions
+in restaurants, smoking restrictions in shopping areas, and smoking restrictions in other places
+(including government workplaces). Because these policies are highly correlated, it was
+necessary to create a CIA index to avoid the estimate's imprecision and instability resulting from
+the presence of multicollinearity in the models. The CIA index was constructed by adding up all
+dummy variables, each representing an existence of a particular CIA restriction. The information
+on CIA policies was obtained from the Centers for Disease Control and Prevention, CDC (for the
+state level) [22] and from the Americans for Nonsmokers’ Rights organization, ANR (for the
+county and city levels) [23].
+One additional variable controls for the performance of the CIA index. It is a dummy for
+the existence of state law preemption over local legislation. Preemption is a provision in state (or
+federal) law, which eliminates the power of local (or state and local) governments to regulate
+tobacco. Preempting local tobacco control with weaker state or federal laws can positively affect
+demand for cigarettes. The information on preemption laws comes from State Synar Profiles [24],
+a summary of enforcement efforts that each state must provide to the federal government.
+The second group of public policies controlled for is Youth Access restrictions on
+tobacco. Several previous studies testing Youth Access restrictions in a cigarette demand function
+found very little or insignificant effect of these laws, possibly due to the lack of their active
+enforcement [15], [18]. In order to measure the real effect of Youth Access laws, the data on
+enforcement measures and compliance with these laws were added to the survey from State Synar
+Profiles. A simple regression analysis revealed that compliance is a positive function of all
+enforcement measures. Compliance is also a positive function of the two Youth Access indices
+(one created from the CDC and ANR information, the other obtained from Tobacco Control
+16
+journal) [25]. Therefore, the models used the level of retailers' compliance with the Youth Access
+laws as a proxy for the laws' existence and their active enforcement, which can inform on the real
+effect of the Youth Access legislature on youth cigarette demand.
+Because some of the dependent variables are of a limited nature, corresponding
+econometric methods had to be employed. A two-part model of cigarette demand is estimated
+based on a model developed by Cragg (1971) in which the propensity to smoke and the intensity
+of the smoking habit are modeled separately. In the first step, a smoking participation equation is
+estimated by using a Probit specification. The OLS technique is employed in the second step
+when the natural logarithm of monthly cigarette consumption is estimated only for those who are
+defined as smokers. The cigarette demand model controls for basic sociodemographic
+characteristics of an individual, various income variables, smuggling incentives, Clean Indoor Air
+laws (by an index reflecting both state and local restrictions), preemption of local laws, Youth
+Access laws (by the compliance proxy), and for various measures of price.
+For all models, the effect of price is expressed as price elasticity. It is possible to compute
+three types of price elasticity from the two-part model: participation (or prevalence) price
+elasticity, conditional demand (or consumption, intensity) price elasticity, and total price
+elasticity. Participation price elasticity uses price coefficients from the Probit regression models.
+It represents the percentage change in the prevalence of smoking caused by one percent change in
+price of cigarettes. Conditional demand price elasticity uses price coefficients from the log-linear
+regression estimated by OLS technique. It measures the percentage change in the average number
+of cigarettes smoked by those who continue to smoke even after a one percent change in the
+cigarette price. Total price elasticity is the sum of smoking participation and conditional demand
+price elasticities. However, there is an emerging literature that suggests that this method is not
+appropriate for calculating total elasticities, particularly in certain circumstances (see [26] and
+17
+[27] for a complete discussion). However, the purpose of this research is to compare findings
+with the existing literature, and hence this method is used. It is important, therefore, to interpret
+the findings with respect to the total demand elasticity cautiously.
+All estimates are presented with two t-values, one computed by commonly used
+techniques, and the other adjusted for clustering. When an analysis evaluates the effects of an
+aggregate variable (such as State Average Price) on micro level data (e.g. smoking among survey
+participants), a standard estimating procedure can lead to a downward bias in standard errors. The
+reason for the bias is that individual disturbances in a group structure do not have to be
+independent within a group. This interdependence does not bias coefficients, but not accounting
+for it can lead to spurious findings of statistical significance of aggregate regressors (aggregate
+price measures and public policies in this case). The models are therefore estimated twice: once
+without clustering adjustment, and once with the adjustment. As a result, it is possible to compare
+to what extent potential inter-group correlation affects significance of variables of interests. The
+standard errors adjusting for clustering were computed with the robust variance estimator in
+STATA using school/location as the clustering variable. This procedure, known also as Huber or
+White estimator, corrects for within-cluster dependence.
+18
+4. RESULTS
+Table 3 demonstrates the effects of the seven price measures on smoking participation
+among high school students.
+Each table line represents one model of smoking participation. The models differ by a
+price variable listed in the first column of the table. The second column represents coefficients
+from the Probit model with two t-values in parentheses, the second one being adjusted for
+clustering. The third column shows the marginal effects of prices on the probability of being a
+smoker (i.e. how the chance of a person becoming a smoker changes if the price is changed by
+one unit). The last column contains participation price elasticities for each model computed from
+marginal effects, average prices and average smoking participation in the sample.
+Price has a negative effect on smoking participation independent of the selected price
+measure. However, there are differences in terms of the coefficients' statistical significance and
+participation elasticities computed for different prices. For example, the coefficient of State
+Excise Tax loses significance when the standard error is adjusted for clustering. The smallest
+participation price elasticities were computed for state cigarette tax and for ACCRA prices. The
+results can be affected by the weaknesses of these price measures, as mentioned before. In
+addition, the quality-of-match indicators are statistically significant in some models. It means that
+the quality of price match is important for obtaining estimates that are more accurate. The
+difference between price elasticities computed for the ACCRA 1st and 2nd quarters' prices also
+indicates that the use of this measure of price for the sample at hand is questionable.
+As expected, the participation price elasticity is higher for Average Perceived Price than
+for Smokers' Average Perceived Price because non-smokers have tendencies to overestimate
+cigarette prices. Even though the appropriate perceived price measure for the participation
+19
+equation should be the one taking into account both smokers' and non-smokers' price perception,
+the price as perceived by smokers will eliminate the bias caused by non-smokers' higher price
+perception. In addition, it can be expected that smokers have more accurate cigarette price
+information in a particular area. The Smokers' Average Perceived Price elasticity is a
+conservative estimate of the effect of prices on smoking participation. It is interesting to note that
+this conservative estimate, -0.342, is not very far from the estimate of price elasticity computed
+for State Average Price, -0.416. The measure of State Average Price is frequently used in studies
+on youth smoking demand.
+Table 4 summarizes the effects of the seven price measures on the number of cigarettes a
+high school smoker consumes during a month if he/she continues to smoke even after the
+cigarette price had been changed. Each table line represent one log-linear model of smoking
+intensity with the log of the number of cigarette smoked in a month as the dependent variable.
+The models differ by the price variable listed in the first column of the table. The second column
+lists the OLS coefficients (which also represent marginal effects) with their respective t-values.
+The last column presents the price elasticities of the conditional demand computed from marginal
+effects and average prices.
+Compared to the price effect in the first part of the model, statistical significance is lower
+in its second part. With the exception of State Excise Tax, the effect of prices is still negative, but
+only perceived prices have significant coefficients. As a result, it is possible to have a different
+conclusion regarding the conditional demand price effect. The conclusion will depend on the
+price measure selected for the equation. Because the difference between conditional price
+elasticities computed for the ACCRA 1st and 2nd quarter prices is rather large, the problematic use
+of these two price measures with the sample at hand is confirmed. The unexpected positive
+20
+coefficient of State Excise Tax is not significant and it signals that state cigarette tax is also not an
+appropriate price measure to be used with the studied sample.
+The price measures still left for consideration are all three perceived prices and state
+average cigarette price. As expected, the conditional price elasticity is higher for Smokers'
+Average Perceived Price than for Average Perceived Price because smokers have incentives to
+search for lower cigarette prices. Even though the appropriate perceived price measure for the
+conditional demand equation should be the one provided by smokers, the price as perceived by
+both groups will eliminate the bias caused by smokers' looking for lower cigarette prices. The
+Average Perceived Price elasticity is a conservative estimate of the effect of prices on smoking
+intensity. In this case, the conservative estimate of -1.028 is quite high and differs from the
+estimate of price elasticity computed for State Average Price, -0.247. However, there are reasons
+to believe that perceived prices more accurately reflect cigarette prices that youth is exposed to.
+In that case, the conditional youth demand for cigarettes would be price-elastic. Comparing the
+first and the second part of the model, perceived prices have a stronger effect on the number of
+cigarettes consumed in a month than on smoking participation. This effect is opposite for State
+Average Price: its effect is stronger for a participation decision compared to a smoking intensity
+decision.
+Table 5 summarizes the results of this analysis by listing the total price elasticities for all
+seven previous price measures and for one mix model. The total price elasticity for the mix model
+in the fourth column was computed by adding the participation price elasticity for Smokers'
+Average Perceived Price and the conditional price elasticity for Average Perceived Price. The
+total price elasticity for the remaining columns was computed as the sum of the price elasticity of
+participation (Probit models) and the price elasticity of the conditional demand (OLS models) for
+the indicated price measure.
+21
+The total price elasticity for the mix model is the lowest among all perceived prices
+because it is the most conservative estimate using this type of price measure. Nevertheless, even
+this conservative estimate is greater than one. This means that a 1 % increase in price will
+decrease smoking among high school students by nearly 1.4 %. The total price elasticity of State
+Average Price is only about half of this estimate. The results for the remaining prices are
+considered less important for this analysis due to their limitations as explain above. The total
+price elasticity of perceived prices falls into the upper range of some recently estimated price
+elasticities for young smokers, which is from -0.9 to -1.5. The total price elasticity computed for
+State Average Price, -0.663, corresponds,for example, to findings of Evans and Farrelly (1998)
+[17]. It is possible to conclude that the effect of cigarette prices as perceived by youth on both
+smoking participation and conditional demand is larger than the effect of the conventional price
+measure - State Average Price.
+The performance of other variables of interest in these models is summarized in Table 6.
+Each column of Table 6 represents one model using the price measure indicated by the column
+heading. The rows contain coefficients of a particular public policy or a smuggling incentive
+across various models. Results for the probability of smoking participation are summarized in the
+top part of the table; the bottom part of the table shows results for the conditional demand part of
+the two-part model.
+The index representing Clean Indoor Air (CIA) laws has a negative coefficient in both
+parts of the model and this result is independent of the price measure. However, the results are
+statistically significant in less than half of the models. A possible interpretation of the lower
+significance is that the selected restrictions are less important to high school students. For
+example, it can be expected that smoking restrictions in private or government workplaces will
+not affect smoking behavior of a person who is a full time student. There is also a possibility of a
+22
+measurement error in the index variable, particularly with respect to restrictions at local levels,
+which are believed to be less accurately recorded. A measurement error in an independent
+variable can bias coefficients towards zero. To summarize, the CIA restrictions have the
+expected, negative effect on both smoking probability and smoking intensity, even though the
+results are not always statistically significant.
+The coefficient of the Preemption variable, which controls for non-existence of local
+tobacco controls, is positive in all models and it is statistically significant for the probability of
+smoking participation. It can be interpreted as local law creating more effectively than state law
+an atmosphere where smoking is a behavior of lower social acceptance. The hypothesis about
+tobacco control policies being a reflection of local sentiment toward tobacco would correspond to
+this finding.
+Retailers' compliance with the Youth Access laws, which serves as a proxy for the laws'
+existence and their active enforcement, performed similarly across all models: it has a negative
+and statistically significant coefficient. The previous findings regarding poor performance of the
+Youth Access laws might have been affected by the failure to control for actual compliance with
+these laws. In this analysis Youth Access limits have a negative effect on both smoking
+prevalence and smoking intensity among high school students when they are complied with. The
+result is subject to the assumption that the compliance variable is not endogenous to the cigarette
+demand model reflecting local sentiment towards smoking.
+The variable controlling for smuggling has the expected positive coefficient in the first
+part of the model but it is not significant in its second part. The non-significant result in the
+smoking intensity equation may reflect the fact that high school students are less mobile and buy
+smaller numbers of cigarettes compared to adult smokers. These constraints make cigarette
+shopping outside the state little attractive.
+23
+The estimates for the socioeconomic and demographic determinants of cigarette demand
+in the model with State Average Price are presented in the Appendix (Table 7) and generally
+conform to expectations. Age raises both the probability of becoming a smoker and monthly
+cigarette consumption. The gender dummy has an opposite sign in the two parts of the model but
+the results are not statistically significant. Sex doesn't seem to be an important determinant of
+cigarette demand among younger age groups. White high school students are more likely to
+smoke than students of other races. Whites also smoke on average more cigarettes in a month.
+Black students are the least likely to be smokers and if they are, they smoke the smallest amount
+of all races. Religiosity, described by the frequency of attendance at religious services, has a
+strong inverse relationship with smoking. Living arrangement is also an important determinant in
+both participation and conditional demand models. Those who live alone have a higher
+probability to start smoking and, if they already smoke, to smoke higher amounts than those who
+live with parents. An incomplete family (e.g. when parents were never married, or if they are
+separated/divorced, or if one of them deceased) is another factor positively affecting youth
+smoking. The family income variables expressed in the form of parental educational attainments
+vary in signs and significance in the two parts of the model. The youth’s personal income as
+described by the number of hours worked and by the amount of pocket money has positive and
+significant effect on cigarette demand.
+24
+5. SUMMARY
+The results of this analysis indicate that higher cigarette prices would result in substantial
+reductions in both smoking participation and average cigarette consumption among high school
+students. For example, if state average prices would rise by $0.50 (i.e. 26.5%), the youth cigarette
+demand can decline by 17.5 percent: participation would drop from 27.8 to 24.8 percent and the
+average monthly consumption would decrease from 139 to 130 cigarettes. However, the choice of
+price variable in an equation affects the predicted reaction among high school smokers. Given the
+price measures advantages, disadvantages and their subsequent performance in the cigarette
+demand function, the most appropriate prices for the data at hand are State Average Price and
+both Average Perceived Prices.
+Focusing on these three price measures, the total estimated price elasticity of cigarette
+demand fell in a range of -0.66 to -1.63. The estimates support the hypothesis that youth is more
+price responsiveness than are adults in their demand for cigarettes (adults' price elasticity is
+believe to be between -0.3 to -0.5 according to several recent economic studies). The study found
+that high school students are more responsive to the price of cigarettes as they perceive it
+compared to average state price or to state excise tax. If the perceived prices more accurately
+reflect the prices youth is paying for their cigarettes, the price elasticity of this consumer group is
+even higher than estimated by studies using state average price. This finding is a unique
+contribution of this study to the economic literature on smoking.
+The effect of public policies on youth smoking was measured by high school students'
+reaction to Clean Indoor Air laws and to Youth Access laws. The laws restricting smoking in
+various places (CIA laws) have a negative effect on both smoking probability and smoking
+intensity among the studied group. The effect is not statistically significant at conventional levels,
+25
+which can be explained by less importance of the selected laws for the population being enrolled
+full time at school.
+The policies limiting youth access to cigarettes are measured by the actual level of
+retailers' compliance with these laws. This unique approach eliminates the frequently cited reason
+for mixed findings regarding performance of these laws, which is their active enforcement. The
+compliance level has a negative and statistically significant effect across various models on both
+probability and intensity of smoking. This robust result suggests that Youth Access laws are an
+important item in a public policy recipe for curbing youth smoking.
+Preemption of local laws by state legislature may have a positive effect on smoking
+probability. However, this finding, as well as findings regarding other public policies, is subject
+to the condition that a policy does not reflect state sentiments towards smoking. In that case, the
+interpretation of a policy's effect can be problematic. Nevertheless, their inclusion in the cigarette
+demand equation alleviates a potential omitted variable bias with respect to price estimates.
+ It will be interesting to follow the smoking trends in the U.S. at the turn of the century
+when cigarette prices should rise thanks to the $206 billion Settlement with the tobacco industry.
+If the predictions of this Settlement are correct and cigarette prices increase from 25 to 45 cents
+over the next 25 years, then youth smoking will decline by 15.4% - 27.6% using the Perceived
+Price conservative elasticity estimate, or by 8.8% - 15.8% using the State Average Price elasticity
+estimate

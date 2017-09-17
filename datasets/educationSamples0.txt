@@ -1,0 +1,28 @@
+﻿Electrical signals such as voltages and currents are the most common.
+Electronic devices called transistors predominate in the circuitry that implements these
+signals. The signals in most present‐day electronic digital systems use just two discrete
+values and are therefore said to be binary. A binary digit, called a bit, has two values: 0
+and 1. Discrete elements of information are represented with groups of bits called binary
+codes. For example, the decimal digits 0 through 9 are represented in a digital system
+with a code of four bits (e.g., the number 7 is represented by 0111). How a pattern of
+bits is interpreted as a number depends on the code system in which it resides. To make
+this distinction, we could write (0111) 2 to indicate that the pattern 0111 is to be interpreted
+in a binary system, and (0111) 10 to indicate that the reference system is decimal.
+Then 0111 2 = 7 10 , which is not the same as 0111 10 , or one hundred eleven. The subscript
+indicating the base for interpreting a pattern of bits will be used only when clarification
+is needed. Through various techniques, groups of bits can be made to represent discrete
+symbols, not necessarily numbers, which are then used to develop the system in a digital
+format. Thus, a digital system is a system that manipulates discrete elements of information
+represented internally in binary form. In today’s technology, binary systems are most
+practical because, as we will see, they can be implemented with electronic components.
+Discrete quantities of information either emerge from the nature of the data being
+processed or may be quantized from a continuous process. On the one hand, a payroll
+schedule is an inherently discrete process that contains employee names, social security
+numbers, weekly salaries, income taxes, and so on. An employee’s paycheck is processed
+by means of discrete data values such as letters of the alphabet (names), digits (salary),
+and special symbols (such as $). On the other hand, a research scientist may observe a
+continuous process, but record only specific quantities in tabular form. The scientist is
+thus quantizing continuous data, making each number in his or her table a discrete
+quantity. In many cases, the quantization of a process can be performed automatically
+by an analog‐to‐digital converter, a device that forms a digital (discrete) representation
+of a analog (continuous) quantity.
